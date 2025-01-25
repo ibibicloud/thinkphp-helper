@@ -1,0 +1,23 @@
+{
+    "name": "ibibicloud/thinkphp-helper",
+    "keywords": ["thinkphp","helper","thinkphp-helper"],
+    "description": "基于think-helper:3.1.10",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
